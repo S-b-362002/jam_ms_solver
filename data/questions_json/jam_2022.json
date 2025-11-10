@@ -1,0 +1,742 @@
+[
+  {
+    "year": 2022,
+    "question_number": 1,
+    "question_text": "Let \\[\\{a_n\\}_{n \\geq 1}\\] be a sequence of non-zero real numbers. Then which one of the following statements is true?",
+    "type": "MCQ",
+    "options": {
+      "A": "If \\[\\left\\{\\frac{a_{n+1}}{a_n}\\right\\}_{n \\geq 1}\\] is a convergent sequence, then \\[\\{a_n\\}_{n \\geq 1}\\] is also a convergent sequence",
+      "B": "If \\[\\{a_n\\}_{n \\geq 1}\\] is a bounded sequence, then \\[\\{a_n\\}_{n \\geq 1}\\] is a convergent sequence",
+      "C": "If \\[|a_{n+2} - a_{n+1}| \\leq \\frac{3}{4}|a_{n+1} - a_n|\\] for all \\[n \\geq 1\\], then \\[\\{a_n\\}_{n \\geq 1}\\] is a Cauchy sequence",
+      "D": "If \\[\\{|a_n|\\}_{n \\geq 1}\\] is a Cauchy sequence, then \\[\\{a_n\\}_{n \\geq 1}\\] is also a Cauchy sequence"
+    },
+    "correct_answer": "C",
+    "syllabus_section": "Sequences and Series"
+  },
+  {
+    "year": 2022,
+    "question_number": 2,
+    "question_text": "Let \\[ f: \\mathbb{R} \\to \\mathbb{R} \\] be the function defined by \\[f(x) = \\begin{cases} \\lim_{h \\to 0} \\frac{(x + h) \\sin \\left( \\frac{1}{x} + h \\right) - x \\sin \\frac{1}{x}}{h}, & x \\neq 0 \\\\ 0, & x = 0.\\end{cases}\\] Then which one of the following statements is NOT true?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ f\\left(\\frac{2}{\\pi}\\right) = 1 \\]",
+      "B": "\\[ f\\left(\\frac{1}{\\pi}\\right) = \\frac{1}{\\pi} \\]",
+      "C": "\\[ f\\left(-\\frac{2}{\\pi}\\right) = -1 \\]",
+      "D": "\\[ f\\] is not continuous at \\[ x = 0 \\]"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 3,
+    "question_text": "Let \\[ f: \\mathbb{R} \\to \\mathbb{R} \\] be the function defined by \\[ f(x) = \\det \\begin{pmatrix} 1 + x & 9 & 9 \\\\ 9 & 1 + x & 9 \\\\ 9 & 9 & 1 + x \\end{pmatrix}. \\] Then the maximum value of \\[ f \\] on the interval \\[[9,10]\\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "118",
+      "B": "112",
+      "C": "114",
+      "D": "116"
+    },
+    "correct_answer": "D",
+    "syllabus_section": "Matrices and Determinants"
+  },
+  {
+    "year": 2022,
+    "question_number": 4,
+    "question_text": "Let \\[ A \\] and \\[ B \\] be two events such that \\[ 0 < P(A) < 1 \\] and \\[ 0 < P(B) < 1 \\]. Then which one of the following statements is NOT true?",
+    "type": "MCQ",
+    "options": {
+      "A": "If \\[ P(A|B) > P(A) \\], then \\[ P(B|A) > P(B) \\]",
+      "B": "If \\[ P(A \\cup B) = 1 \\], then \\[ A \\] and \\[ B \\] cannot be independent",
+      "C": "If \\[ P(A|B) > P(A) \\], then \\[ P(A^c|B) < P(A^c) \\]",
+      "D": "If \\[ P(A|B) > P(A) \\], then \\[ P(A^c|B^c) < P(A^c) \\]"
+    },
+    "correct_answer": "D",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 5,
+    "question_text": "If \\[ M(t), \\, t \\in \\mathbb{R} \\], is the moment generating function of a random variable, then which one of the following is NOT the moment generating function of any random variable?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ \\frac{5e^{-5t}}{1-4t^2}M(t), \\, |t| < \\frac{1}{2} \\]",
+      "B": "\\[ e^{-t}M(t), \\, t \\in \\mathbb{R} \\]",
+      "C": "\\[ \\frac{1+e^t}{2(2-e^t)}M(t), \\, t < \\ln 2 \\]",
+      "D": "\\[ M(4t), \\, t \\in \\mathbb{R} \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 6,
+    "question_text": "Let \\[ X \\] be a random variable having binomial distribution with parameters \\[ n \\, (\\geq 1) \\] and \\[ p \\, (0 < p < 1) \\]. Then \\[ E\\left(\\frac{1}{1+X}\\right) \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ \\frac{1-(1-p)^{n+1}}{(n+1)p} \\]",
+      "B": "\\[ \\frac{1-p^{n+1}}{(n+1)(1-p)} \\]",
+      "C": "\\[ \\frac{(1-p)^{n+1}}{n(1-p)} \\]",
+      "D": "\\[ \\frac{1-p^n}{(n+1)p} \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 7,
+    "question_text": "Let \\[(X, Y)\\] be a random vector having the joint probability density function \\[f(x, y) = \\begin{cases} \\frac{\\sqrt{2}}{\\sqrt{\\pi}} e^{-2x} e^{-\\frac{(y - x)^2}{2}}, & 0 < x < \\infty, -\\infty < y < \\infty \\\\ 0, & \\text{otherwise}. \\end{cases}\\] Then \\[E(Y)\\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\frac{1}{2}\\]",
+      "B": "2",
+      "C": "1",
+      "D": "\\[\\frac{1}{4}\\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Multivariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 8,
+    "question_text": "Let \\[ X_1 \\] and \\[ X_2 \\] be two independent and identically distributed discrete random variables having the probability mass function \\[f(x) = \\begin{cases} \\left( \\frac{1}{2} \\right)^x, & x = 1, 2, 3, ... \\\\ 0, & \\text{otherwise}. \\end{cases}\\] Then \\[ P(\\min\\{X_1, X_2\\} \\geq 5) \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\frac{1}{256}\\]",
+      "B": "\\[\\frac{1}{512}\\]",
+      "C": "\\[\\frac{1}{64}\\]",
+      "D": "\\[\\frac{9}{256}\\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 9,
+    "question_text": "Let \\[ X_1, X_2, ..., X_n \\] (\\[ n \\geq 2 \\]) be a random sample from \\[ Exp \\left( \\frac{1}{\\theta} \\right) \\] distribution, where \\[\\theta > 0\\] is unknown. If \\[\\overline{X} = \\frac{1}{n} \\sum_{i=1}^n X_i\\], then which one of the following statements is NOT true?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\overline{X}\\] is the uniformly minimum variance unbiased estimator of \\[\\theta\\]",
+      "B": "\\[\\overline{X}^2\\] is the uniformly minimum variance unbiased estimator of \\[\\theta^2\\]",
+      "C": "\\[\\frac{n}{n+1} \\overline{X}^2\\] is the uniformly minimum variance unbiased estimator of \\[\\theta^2\\]",
+      "D": "\\[Var \\left( E \\left( X_n \\mid \\overline{X} \\right) \\right) \\leq Var (X_n)\\]"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Estimation"
+  },
+  {
+    "year": 2022,
+    "question_number": 10,
+    "question_text": "Let \\[ X_1, X_2, ..., X_n \\] (\\[ n \\geq 3 \\]) be a random sample from a \\[ N(\\mu, \\sigma^2) \\] distribution, where \\[ \\mu \\in \\mathbb{R} \\] and \\[ \\sigma > 0 \\] are both unknown. Then which one of the following is a simple null hypothesis?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ H_0: \\mu < 5, \\, \\sigma^2 = 3 \\]",
+      "B": "\\[ H_0: \\mu = 5, \\, \\sigma^2 > 3 \\]",
+      "C": "\\[ H_0: \\mu = 5, \\, \\sigma^2 = 3 \\]",
+      "D": "\\[ H_0: \\mu = 5 \\]"
+    },
+    "correct_answer": "C",
+    "syllabus_section": "Testing of Hypotheses"
+  },
+  {
+    "year": 2022,
+    "question_number": 11,
+    "question_text": "\\[ \\lim_{n \\to \\infty} \\frac{6}{n+2} \\left\\{ \\left( 2 + \\frac{1}{n} \\right)^2 + \\left( 2 + \\frac{2}{n} \\right)^2 + \\cdots + \\left( 2 + \\frac{n-1}{n} \\right)^2 \\right\\} \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "38",
+      "B": "36",
+      "C": "32",
+      "D": "30"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Sequences and Series"
+  },
+  {
+    "year": 2022,
+    "question_number": 12,
+    "question_text": "Let \\[ f: \\mathbb{R}^2 \\to \\mathbb{R} \\] be the function defined by \\[f(x, y) = \\begin{cases} x^2 \\sin \\frac{1}{x} + y^2 \\cos y, & x \\neq 0 \\\\ 0, & x = 0.\\end{cases}\\] Then which one of the following statements is NOT true?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ f \\] is continuous at \\[(0, 0)\\]",
+      "B": "The partial derivative of \\[ f \\] with respect to \\[ x \\] is not continuous at \\[(0, 0)\\]",
+      "C": "The partial derivative of \\[ f \\] with respect to \\[ y \\] is continuous at \\[(0, 0)\\]",
+      "D": "\\[ f \\] is not differentiable at \\[(0, 0)\\]"
+    },
+    "correct_answer": "D",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 13,
+    "question_text": "Let \\[ f: [1, 2] \\rightarrow \\mathbb{R} \\] be the function defined by \\[ f(t) = \\int_{1}^{t} \\sqrt{x^2 e^{x^2} - 1} \\, dx. \\] Then the arc length of the graph of \\[ f \\] over the interval \\[[1, 2]\\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ e^2 - \\sqrt{e} \\]",
+      "B": "\\[ e - \\sqrt{e} \\]",
+      "C": "\\[ e^2 - e \\]",
+      "D": "\\[ e^2 - 1 \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 14,
+    "question_text": "Let \\[ F: [0, 2] \\rightarrow \\mathbb{R} \\] be the function defined by \\[F(x) = \\int_{x^2}^{x+2} e^{x[t]} dt,\\] where \\[[t]\\] denotes the greatest integer less than or equal to \\[ t \\]. Then the value of the derivative of \\[ F \\] at \\[ x = 1 \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ e^3 + 2e^2 - e \\]",
+      "B": "\\[ e^3 - e^2 + 2e \\]",
+      "C": "\\[ e^3 - 2e^2 + e \\]",
+      "D": "\\[ e^3 + 2e^2 + e \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 15,
+    "question_text": "Let the system of equations \\[ x + ay + z = 1 \\] \\[ 2x + 4y + z = -b \\] \\[ 3x + y + 2z = b + 2 \\] have infinitely many solutions, where \\[ a \\] and \\[ b \\] are real constants. Then the value of \\[ 2a + 8b \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[-11\\]",
+      "B": "\\[-10\\]",
+      "C": "\\[-13\\]",
+      "D": "\\[-14\\]"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Matrices and Determinants"
+  },
+  {
+    "year": 2022,
+    "question_number": 16,
+    "question_text": "Let \\[ A = \\begin{pmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 1 & 1 \\end{pmatrix} \\]. Then the sum of all the elements of \\[ A^{100} \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "101",
+      "B": "103",
+      "C": "102",
+      "D": "100"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Matrices and Determinants"
+  },
+  {
+    "year": 2022,
+    "question_number": 17,
+    "question_text": "Suppose that four persons enter a lift on the ground floor of a building. There are seven floors above the ground floor and each person independently chooses her exit floor as one of these seven floors. If each of them chooses the topmost floor with probability \\[\\frac{1}{3}\\] and each of the remaining floors with an equal probability, then the probability that no two of them exit at the same floor equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\frac{200}{729}\\]",
+      "B": "\\[\\frac{220}{729}\\]",
+      "C": "\\[\\frac{240}{729}\\]",
+      "D": "\\[\\frac{180}{729}\\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 18,
+    "question_text": "A year is chosen at random from the set of years {2012, 2013, ..., 2021}. From the chosen year, a month is chosen at random and from the chosen month, a day is chosen at random. Given that the chosen day is the \\[ 29^{\\text{th}} \\] of a month, the conditional probability that the chosen month is February equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ \\frac{279}{9965} \\]",
+      "B": "\\[ \\frac{289}{9965} \\]",
+      "C": "\\[ \\frac{269}{9965} \\]",
+      "D": "\\[ \\frac{259}{9965} \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 19,
+    "question_text": "Suppose that a fair coin is tossed repeatedly and independently. Let \\[ X \\] denote the number of tosses required to obtain for the first time a tail that is immediately preceded by a head. Then \\[ E(X) \\] and \\[ P(X > 4) \\], respectively, are",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ 4 \\] and \\[ \\frac{5}{16} \\]",
+      "B": "\\[ 4 \\] and \\[ \\frac{11}{16} \\]",
+      "C": "\\[ 6 \\] and \\[ \\frac{5}{16} \\]",
+      "D": "\\[ 6 \\] and \\[ \\frac{11}{16} \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 20,
+    "question_text": "Let \\[ X \\] be a random variable with the moment generating function \\[ M(t) = \\frac{1}{(1 - 4t)^5}, \\quad t < \\frac{1}{4}. \\] Then the lower bounds for \\[ P(X < 40) \\], using Chebyshev's inequality and Markov's inequality, respectively, are",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\frac{4}{5}\\] and \\[\\frac{1}{2}\\]",
+      "B": "\\[\\frac{5}{6}\\] and \\[\\frac{1}{2}\\]",
+      "C": "\\[\\frac{4}{5}\\] and \\[\\frac{5}{6}\\]",
+      "D": "\\[\\frac{5}{6}\\] and \\[\\frac{5}{6}\\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Limit Theorems"
+  },
+  {
+    "year": 2022,
+    "question_number": 21,
+    "question_text": "In a store, the daily demand for milk (in litres) is a random variable having \\[ Exp(\\lambda) \\] distribution, where \\[ \\lambda > 0 \\]. At the beginning of the day, the store purchases \\[ c (\\geq 0) \\] litres of milk at a fixed price \\[ b (\\geq 0) \\] per litre. The milk is then sold to the customers at a fixed price \\[ s (\\geq b) \\] per litre. At the end of the day, the unsold milk is discarded. Then the value of \\[ c \\] that maximizes the expected net profit for the store equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ -\\frac{1}{\\lambda} \\ln \\left( \\frac{b}{s} \\right) \\]",
+      "B": "\\[ -\\frac{1}{\\lambda} \\ln \\left( \\frac{b}{s+b} \\right) \\]",
+      "C": "\\[ -\\frac{1}{\\lambda} \\ln \\left( \\frac{s-b}{s} \\right) \\]",
+      "D": "\\[ -\\frac{1}{\\lambda} \\ln \\left( \\frac{s}{s+b} \\right) \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 22,
+    "question_text": "Let \\[ X_1, X_2 \\] and \\[ X_3 \\] be three independent and identically distributed random variables having \\[ U(0, 1) \\] distribution. Then \\[ E \\left[ \\left( \\frac{\\ln x_1}{\\ln x_1 x_2 x_3} \\right)^2 \\right] \\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ \\frac{1}{6} \\]",
+      "B": "\\[ \\frac{1}{3} \\]",
+      "C": "\\[ \\frac{1}{8} \\]",
+      "D": "\\[ \\frac{1}{4} \\]"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 23,
+    "question_text": "Let \\[(X, Y)\\] be a random vector having bivariate normal distribution with parameters \\[E(X) = 0\\], \\[Var(X) = 1\\], \\[E(Y) = -1\\], \\[Var(Y) = 4\\] and \\[\\rho(X, Y) = -\\frac{1}{2}\\] where \\[\\rho(X, Y)\\] denotes the correlation coefficient between \\[X\\] and \\[Y\\]. Then \\[P(X + Y > 1 \\mid 2X - Y = 1)\\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\Phi\\left(-\\frac{1}{2}\\right)\\]",
+      "B": "\\[\\Phi\\left(-\\frac{1}{3}\\right)\\]",
+      "C": "\\[\\Phi\\left(-\\frac{1}{4}\\right)\\]",
+      "D": "\\[\\Phi\\left(-\\frac{4}{3}\\right)\\]"
+    },
+    "correct_answer": "D",
+    "syllabus_section": "Multivariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 24,
+    "question_text": "Let \\[\\{X_n\\}_{n\\geq1}\\] be a sequence of independent and identically distributed random variables having the common probability density function \\[f(x) = \\begin{cases} \\frac{2}{x^3}, & x\\geq1 \\\\ 0, & \\text{otherwise}. \\end{cases}\\] If \\[\\lim_{n\\to\\infty}P\\left(\\left|\\frac{1}{n}\\sum_{i=1}^n X_i - \\theta\\right| < \\epsilon\\right) = 1\\] for all \\[\\epsilon> 0\\], then \\[\\theta\\] equals",
+    "type": "MCQ",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "\\[\\ln 4\\]",
+      "D": "\\[\\ln 2\\]"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Limit Theorems"
+  },
+  {
+    "year": 2022,
+    "question_number": 25,
+    "question_text": "Let 0.2, 1.2, 1.4, 0.3, 0.9, 0.7 be the observed values of a random sample of size 6 from a continuous distribution with the probability density function \\[f(x) = \\begin{cases} 1, & 0 < x\\leq\\frac{1}{2} \\\\ \\frac{1}{2\\theta-1}, & \\frac{1}{2} < x\\leq\\theta \\\\ 0, & \\text{otherwise}, \\end{cases}\\] where \\[\\theta>\\frac{1}{2}\\] is unknown. Then the maximum likelihood estimate and the method of moments estimate of \\[\\theta\\], respectively, are",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\frac{7}{5}\\] and 2",
+      "B": "\\[\\frac{47}{60}\\] and \\[\\frac{32}{15}\\]",
+      "C": "\\[\\frac{7}{5}\\] and \\[\\frac{32}{15}\\]",
+      "D": "\\[\\frac{7}{5}\\] and \\[\\frac{47}{60}\\]"
+    },
+    "correct_answer": "C",
+    "syllabus_section": "Estimation"
+  },
+  {
+    "year": 2022,
+    "question_number": 26,
+    "question_text": "For \\[ n = 1, 2, 3, ..., \\] let the joint moment generating function of \\[(X, Y_n)\\] be \\[ M_{X,Y_n}(t_1, t_2) = e^{\\frac{t_1^2}{2}}(1 - 2t_2)^{-\\frac{n}{2}}, \\quad t_1 \\in \\mathbb{R}, t_2 < \\frac{1}{2}. \\] If \\[ T_n = \\frac{\\sqrt{n} x}{\\sqrt{Y_n}}, \\, n \\geq 1 \\], then which one of the following statements is true?",
+    "type": "MCQ",
+    "options": {
+      "A": "The minimum value of \\[ n \\] for which \\[ Var(T_n) \\] is finite is 2",
+      "B": "\\[ E(T_{10}^3) = 10 \\]",
+      "C": "\\[ Var(X + Y_4) = 7 \\]",
+      "D": "\\[ \\lim_{n \\to \\infty} P(|T_n| > 3) = 1 - \\frac{\\sqrt{2}}{\\sqrt{\\pi}} \\int_0^3 e^{-\\frac{t^2}{2}} dt \\]"
+    },
+    "correct_answer": "D",
+    "syllabus_section": "Sampling Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 27,
+    "question_text": "Let \\[ X_{(1)} < X_{(2)} < \\cdots < X_{(9)} \\] be the order statistics corresponding to a random sample of size 9 from \\[ U(0, 1) \\] distribution. Then which one of the following statements is NOT true?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ E\\left(\\frac{X_{(9)}}{1-X_{(9)}}\\right) \\] is finite",
+      "B": "\\[ E(X_{(5)}) = 0.5 \\]",
+      "C": "The median of \\[ X_{(5)} \\] is 0.5",
+      "D": "The mode of \\[ X_{(5)} \\] is 0.5"
+    },
+    "correct_answer": "A",
+    "syllabus_section": "Sampling Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 28,
+    "question_text": "Let \\[ X_1, X_2, ..., X_{16} \\] be a random sample from a \\[ N(4\\mu, 1) \\] distribution and \\[ Y_1, Y_2, ..., Y_8 \\] be a random sample from a \\[ N(\\mu, 1) \\] distribution, where \\[\\mu \\in \\mathbb{R}\\] is unknown. Assume that the two random samples are independent. If you are looking for a confidence interval for \\[\\mu\\] based on the statistic \\[ 8\\overline{X} + \\overline{Y} \\], where \\[\\overline{X} = \\frac{1}{16} \\sum_{i=1}^{16} X_i \\] and \\[\\overline{Y} = \\frac{1}{8} \\sum_{i=1}^{8} Y_i \\], then which one of the following statements is true?",
+    "type": "MCQ",
+    "options": {
+      "A": "There exists a 90% confidence interval for \\[\\mu\\] of length less than 0.1",
+      "B": "There exists a 90% confidence interval for \\[\\mu\\] of length greater than 0.3",
+      "C": "\\[\\left[ \\frac{8\\overline{X} + \\overline{Y}}{33} - \\frac{1.645}{2\\sqrt{66}}, \\frac{8\\overline{X} + \\overline{Y}}{33} + \\frac{1.645}{2\\sqrt{66}} \\right] \\] is the unique 90% confidence interval for \\[\\mu\\]",
+      "D": "\\[\\mu\\] always belongs to its 90% confidence interval"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Estimation"
+  },
+  {
+    "year": 2022,
+    "question_number": 29,
+    "question_text": "Let \\[ X_1, X_2, X_3, X_4 \\] be a random sample from a distribution with the probability mass function \\[f(x) = \\begin{cases} \\theta^x(1 - \\theta)^{1-x}, & x = 0, 1 \\\\ 0, & \\text{otherwise}, \\end{cases}\\] where \\[\\theta \\in (0, 1)\\] is unknown. Let \\[0 < \\alpha \\leq 1\\]. To test the hypothesis \\[H_0: \\theta = \\frac{1}{2}\\] against \\[H_1: \\theta > \\frac{1}{2}\\] consider the size \\[\\alpha\\] test that rejects \\[H_0\\] if and only if \\[\\sum_{i=1}^4 X_i \\geq k_{\\alpha}\\] for some \\[k_{\\alpha} \\in \\{0, 1, 2, 3, 4\\}\\] Then for which one of the following values of \\[\\alpha\\] the size \\[\\alpha\\] test does NOT exist?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[\\frac{1}{16}\\]",
+      "B": "\\[\\frac{1}{4}\\]",
+      "C": "\\[\\frac{11}{16}\\]",
+      "D": "\\[\\frac{5}{16}\\]"
+    },
+    "correct_answer": "B",
+    "syllabus_section": "Testing of Hypotheses"
+  },
+  {
+    "year": 2022,
+    "question_number": 30,
+    "question_text": "Let \\[ X_1, X_2, X_3, X_4 \\] be a random sample from a Poisson distribution with unknown mean \\[ \\lambda > 0 \\]. For testing the hypothesis \\[ H_0: \\lambda = 1 \\] against \\[ H_1: \\lambda = 1.5 \\] let \\[ \\beta \\] denote the power of the test that rejects \\[ H_0 \\] if and only if \\[ \\sum_{i=1}^4 X_i \\geq 5 \\]. Then which one of the following statements is true?",
+    "type": "MCQ",
+    "options": {
+      "A": "\\[ \\beta > 0.80 \\]",
+      "B": "\\[ 0.75 < \\beta \\leq 0.80 \\]",
+      "C": "\\[ 0.70 < \\beta \\leq 0.75 \\]",
+      "D": "\\[ 0.65 < \\beta \\leq 0.70 \\]"
+    },
+    "correct_answer": "C",
+    "syllabus_section": "Testing of Hypotheses"
+  },
+  {
+    "year": 2022,
+    "question_number": 31,
+    "question_text": "Let \\[\\{a_n\\}_{n \\geq 1}\\] be a sequence of real numbers such that \\[a_n = \\frac{1}{3^n}\\] for all \\[n \\geq 1\\]. Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "\\[\\sum_{n=1}^\\infty (-1)^{n+1} a_n\\] is a convergent series",
+      "B": "\\[\\sum_{n=1}^\\infty \\frac{(-1)^{n+1}}{n} (a_1 + a_2 + ... + a_n)\\] is a convergent series",
+      "C": "The radius of convergence of the power series \\[\\sum_{n=1}^\\infty a_n x^n\\] is \\[\\frac{1}{3}\\]",
+      "D": "\\[\\sum_{n=1}^\\infty a_n \\sin \\frac{1}{a_n}\\] is a convergent series"
+    },
+    "correct_answer": "A, B, D",
+    "syllabus_section": "Sequences and Series"
+  },
+  {
+    "year": 2022,
+    "question_number": 32,
+    "question_text": "Let \\[ f: \\mathbb{R}^2 \\to \\mathbb{R} \\] be the function defined by \\[ f(x, y) = 8(x^2 - y^2) - x^4 + y^4. \\] Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "\\[ f \\] has 9 critical points",
+      "B": "\\[ f \\] has a saddle point at \\[(2, 2)\\]",
+      "C": "\\[ f \\] has a local maximum at \\[(-2, 0)\\]",
+      "D": "\\[ f \\] has a local minimum at \\[(0, -2)\\]"
+    },
+    "correct_answer": "A, B, C, D",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 33,
+    "question_text": "If \\[ n \\geq 2 \\], then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "If \\[ A \\] and \\[ B \\] are \\[ n \\times n \\] real orthogonal matrices such that \\[ \\det(A) + \\det(B) = 0 \\] then \\[ A + B \\] is a singular matrix",
+      "B": "If \\[ A \\] is an \\[ n \\times n \\] real matrix such that \\[ I_n + A \\] is non-singular then \\[ I_n + (I_n + A)^{-1}(I_n - A) \\] is a singular matrix",
+      "C": "If \\[ A \\] is an \\[ n \\times n \\] real skew-symmetric matrix then \\[ I_n - A^2 \\] is a non-singular matrix",
+      "D": "If \\[ A \\] is an \\[ n \\times n \\] real orthogonal matrix then \\[ \\det(A - \\lambda I_n) \\neq 0 \\] for all \\[ \\lambda \\in \\{x \\in \\mathbb{R}: x \\neq \\pm 1\\} \\]"
+    },
+    "correct_answer": "A, C, D",
+    "syllabus_section": "Matrices and Determinants"
+  },
+  {
+    "year": 2022,
+    "question_number": 34,
+    "question_text": "Let \\[\\Omega = \\{1, 2, 3, ...\\}\\] be the sample space of a random experiment and suppose that all subsets of \\[\\Omega\\] are events. Further, let \\[P\\] be a probability function such that \\[P(\\{i\\}) > 0\\] for all \\[i \\in \\Omega\\]. Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "For every \\[\\epsilon > 0\\] there exists an event \\[A\\] such that \\[0 < P(A) < \\epsilon\\]",
+      "B": "There exists a sequence of disjoint events \\[\\{A_k\\}_{k \\geq 1}\\] with \\[P(A_k) \\geq 10^{-6}\\] for all \\[k \\geq 1\\]",
+      "C": "There exists \\[j \\in \\Omega\\] such that \\[P(\\{j\\}) \\geq P(\\{i\\})\\] for all \\[i \\in \\Omega\\]",
+      "D": "Let \\[\\{A_k\\}_{k \\geq 1}\\] be a sequence of events such that \\[\\sum_{k=1}^{\\infty} P(A_k) < \\infty\\]. Then for each \\[i \\in \\Omega\\] there exists \\[N \\geq 1\\] (which may depend on \\[i\\]) such that \\[i \\notin \\bigcup_{k=N}^{\\infty} A_k\\]"
+    },
+    "correct_answer": "A, C, D",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 35,
+    "question_text": "A university bears the yearly medical expenses of each of its employees up to a maximum of Rs. 1000. If the yearly medical expenses of an employee exceed Rs. 1000, then the employee gets the excess amount from an insurance policy up to a maximum of Rs. 500. If the yearly medical expenses of a randomly selected employee has \\[ U(250,1750) \\] distribution and \\[ Y \\] denotes the amount the employee gets from the insurance policy, then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "\\[ E(Y) = \\frac{500}{3} \\]",
+      "B": "\\[ P(Y > 300) = \\frac{3}{10} \\]",
+      "C": "The median of \\[ Y \\] is zero",
+      "D": "The quantile of order 0.6 for \\[ Y \\] equals 100"
+    },
+    "correct_answer": "A, B, C",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 36,
+    "question_text": "Let \\[ X \\] and \\[ Y \\] be two independent random variables having \\[ N(0, \\sigma_1^2) \\] and \\[ N(0, \\sigma_2^2) \\] distributions respectively where \\[ 0 < \\sigma_1 < \\sigma_2 \\]. Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "\\[ X + Y \\] and \\[ X - Y \\] are independent",
+      "B": "\\[ 2X + Y \\] and \\[ X - Y \\] are independent if \\[ 2\\sigma_1^2 = \\sigma_2^2 \\]",
+      "C": "\\[ X + Y \\] and \\[ X - Y \\] are identically distributed",
+      "D": "\\[ X + Y \\] and \\[ 2X - Y \\] are independent if \\[ 2\\sigma_1^2 = \\sigma_2^2 \\]"
+    },
+    "correct_answer": "B, C, D",
+    "syllabus_section": "Multivariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 37,
+    "question_text": "Let \\[(X, Y)\\] be a discrete random vector. Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "If \\[X\\] and \\[Y\\] are independent then \\[X^2\\] and \\[|Y|\\] are also independent",
+      "B": "If the correlation coefficient between \\[X\\] and \\[Y\\] is 1 then \\[P(Y = aX + b) = 1\\] for some \\[a, b \\in \\mathbb{R}\\]",
+      "C": "If \\[X\\] and \\[Y\\] are independent and \\[E[(XY)^2] = 0\\] then \\[P(X = 0) = 1\\] or \\[P(Y = 0) = 1\\]",
+      "D": "If \\[Var(X) = 0\\] then \\[X\\] and \\[Y\\] are independent"
+    },
+    "correct_answer": "A, B, C, D",
+    "syllabus_section": "Multivariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 38,
+    "question_text": "Let \\[ X_1, X_2 \\] and \\[ X_3 \\] be three independent and identically distributed random variables having \\[ N(0, 1) \\] distribution. If \\[U = \\frac{2X_1^2}{(X_2 + X_3)^2} \\quad \\text{and} \\quad V = \\frac{2(X_2 - X_3)^2}{2X_1^2 + (X_2 + X_3)^2}\\] then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "\\[ U \\] has \\[ F_{1,1} \\] distribution and \\[ V \\] has \\[ F_{1,2} \\] distribution",
+      "B": "\\[ U \\] has \\[ F_{1,1} \\] distribution and \\[ V \\] has \\[ F_{2,1} \\] distribution",
+      "C": "\\[ U \\] and \\[ V \\] are independent",
+      "D": "\\[\\frac{1}{2}V(1 + U)\\] has \\[ F_{2,3} \\] distribution"
+    },
+    "correct_answer": "A, C",
+    "syllabus_section": "Sampling Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 39,
+    "question_text": "Let \\[ X_1, X_2, X_3, X_4 \\] be a random sample from a continuous distribution with the probability density function \\[ f(x) = \\frac{1}{2} e^{-|x-\\theta|}, x \\in \\mathbb{R} \\] where \\[ \\theta \\in \\mathbb{R} \\] is unknown. Let the corresponding order statistics be denoted by \\[ X_{(1)} < X_{(2)} < X_{(3)} < X_{(4)} \\]. Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "\\[ \\frac{1}{2} (X_{(2)} + X_{(3)}) \\] is the unique maximum likelihood estimator of \\[ \\theta \\]",
+      "B": "\\[ (X_{(1)}, X_{(2)}, X_{(3)}, X_{(4)}) \\] is a sufficient statistic for \\[ \\theta \\]",
+      "C": "\\[ \\frac{1}{4} (X_{(2)} + X_{(3)}) (X_{(2)} + X_{(3)} + 2) \\] is a maximum likelihood estimator of \\[ \\theta (\\theta + 1) \\]",
+      "D": "\\[ (X_1 X_2 X_3, X_1 X_2 X_4) \\] is a complete statistic"
+    },
+    "correct_answer": "B, C",
+    "syllabus_section": "Estimation"
+  },
+  {
+    "year": 2022,
+    "question_number": 40,
+    "question_text": "Let \\[ X_1, X_2, ..., X_n \\] (\\[ n > 1 \\]) be a random sample from a \\[ N(\\mu, 1) \\] distribution where \\[\\mu \\in \\mathbb{R}\\] is unknown. Let \\[ 0 < \\alpha < 1 \\]. To test the hypothesis \\[ H_0: \\mu = 0 \\] against \\[ H_1: \\mu = \\delta \\] where \\[\\delta > 0\\] is a constant let \\[\\beta\\] denote the power of the size \\[\\alpha\\] test that rejects \\[ H_0 \\] if and only if \\[\\frac{1}{n} \\sum_{i=1}^n X_i > c_{\\alpha}\\] for some constant \\[c_{\\alpha}\\] Then which of the following statements is/are true?",
+    "type": "MSQ",
+    "options": {
+      "A": "For a fixed value of \\[\\delta\\] \\[\\beta\\] increases as \\[\\alpha\\] increases",
+      "B": "For a fixed value of \\[\\alpha\\] \\[\\beta\\] increases as \\[\\delta\\] increases",
+      "C": "For a fixed value of \\[\\delta\\] \\[\\beta\\] decreases as \\[\\alpha\\] increases",
+      "D": "For a fixed value of \\[\\alpha\\] \\[\\beta\\] decreases as \\[\\delta\\] increases"
+    },
+    "correct_answer": "A, B",
+    "syllabus_section": "Testing of Hypotheses"
+  },
+  {
+    "year": 2022,
+    "question_number": 41,
+    "question_text": "Let \\[\\{a_n\\}_{n \\geq 1}\\] be a sequence of real numbers such that \\[a_{1+5m} = 2\\] \\[a_{2+5m} = 3\\] \\[a_{3+5m} = 4\\] \\[a_{4+5m} = 5\\] \\[a_{5+5m} = 6\\] \\[m = 0, 1, 2, ...\\]. Then \\[ \\limsup_{n \\to \\infty} a_n + \\liminf_{n \\to \\infty} a_n \\] equals ______",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "8",
+    "syllabus_section": "Sequences and Series"
+  },
+  {
+    "year": 2022,
+    "question_number": 42,
+    "question_text": "Let \\[f: \\mathbb{R} \\to \\mathbb{R}\\] be a function such that \\[ 20(x - y) \\leq f(x) - f(y) \\leq 20(x - y) + 2(x - y)^2 \\] for all \\[x, y \\in \\mathbb{R}\\] and \\[f(0) = 2\\]. Then \\[f(101)\\] equals ______",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "2022",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 43,
+    "question_text": "Let \\[A\\] be a \\[3 \\times 3\\] real matrix such that \\[\\det(A) = 6\\] and \\[ adj A = \\begin{pmatrix} 1 & -1 & 2 \\\\ 5 & 7 & 1 \\\\ -1 & 1 & 1 \\end{pmatrix} \\] where \\[adj A\\] denotes the adjoint of \\[A\\]. Then the trace of \\[A\\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "3.5",
+    "syllabus_section": "Matrices and Determinants"
+  },
+  {
+    "year": 2022,
+    "question_number": 44,
+    "question_text": "Let \\[ X \\] and \\[ Y \\] be two independent and identically distributed random variables having \\[ U(0,1) \\] distribution. Then \\[ P(X^2 < Y < X) \\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.17",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 45,
+    "question_text": "Consider a sequence of independent Bernoulli trials where \\[ \\frac{3}{4} \\] is the probability of success in each trial. Let \\[ X \\] be a random variable defined as follows: If the first trial is a success then \\[ X \\] counts the number of failures before the next success. If the first trial is a failure then \\[ X \\] counts the number of successes before the next failure. Then \\[ 2E(X) \\] equals ______",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "2",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 46,
+    "question_text": "Let \\[ X \\] be a random variable denoting the amount of loss in a business. The moment generating function of \\[ X \\] is \\[M(t) = \\left( \\frac{2}{2-t} \\right)^2, \\quad t < 2.\\] If an insurance policy pays 60% of the loss then the variance of the amount paid by the insurance policy equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.18",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 47,
+    "question_text": "Let \\[(X, Y)\\] be a random vector having the joint moment generating function \\[M(t_1, t_2) = \\left( \\frac{1}{2} e^{-t_1} + \\frac{1}{2} e^{t_1} \\right)^2 \\left( \\frac{1}{2} + \\frac{1}{2} e^{t_2} \\right)^2, \\quad (t_1, t_2) \\in \\mathbb{R}^2.\\] Then \\[P(|X + Y| = 2)\\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.25",
+    "syllabus_section": "Multivariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 48,
+    "question_text": "Let \\[X_1\\] and \\[X_2\\] be two independent and identically distributed random variables having \\[\\chi^2_2\\] distribution and \\[W = X_1 + X_2\\]. Then \\[P(W > E(W))\\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.41",
+    "syllabus_section": "Sampling Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 49,
+    "question_text": "Let \\[2.5, -1.0, 0.5, 1.5\\] be the observed values of a random sample of size 4 from a continuous distribution with the probability density function \\[f(x) = \\frac{1}{8} e^{-|x-2|} + \\frac{3}{4\\sqrt{2\\pi}} e^{-\\frac{1}{2}(x-\\theta)^2}, \\quad x \\in \\mathbb{R}\\] where \\[\\theta \\in \\mathbb{R}\\] is unknown. Then the method of moments estimate of \\[\\theta\\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.5",
+    "syllabus_section": "Estimation"
+  },
+  {
+    "year": 2022,
+    "question_number": 50,
+    "question_text": "Let \\[ X_1, X_2, ..., X_{25} \\] be a random sample from a \\[ N(\\mu, 1) \\] distribution where \\[\\mu \\in \\mathbb{R}\\] is unknown. Consider testing of the hypothesis \\[ H_0: \\mu = 5.2 \\] against \\[ H_1: \\mu = 5.6 \\]. The null hypothesis is rejected if and only if \\[\\frac{1}{25} \\sum_{i=1}^{25} X_i > k\\] for some constant \\[ k \\]. If the size of the test is 0.05 then the probability of type-II error equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.36",
+    "syllabus_section": "Testing of Hypotheses"
+  },
+  {
+    "year": 2022,
+    "question_number": 51,
+    "question_text": "Let \\[ f : \\mathbb{R}^2 \\to \\mathbb{R} \\] be the function defined by \\[ f(x, y) = x^2 - 12y \\]. If \\[ M \\] and \\[ m \\] be the maximum value and the minimum value respectively of the function \\[ f \\] on the circle \\[ x^2 + y^2 = 49 \\] then \\[ |M| + |m| \\] equals ______",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "169",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 52,
+    "question_text": "The value of \\[\\int_0^2 \\int_0^{2-x} (x+y)^2 e^{\\frac{2y}{x+y}} dy \\, dx\\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "12.8",
+    "syllabus_section": "Differential and Integral Calculus"
+  },
+  {
+    "year": 2022,
+    "question_number": 53,
+    "question_text": "Let \\[ A = \\begin{pmatrix} 1 & -1 & 2 \\\\ -1 & 0 & 1 \\\\ 2 & 1 & 1 \\end{pmatrix} \\] and let \\[\\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix}\\] be an eigenvector corresponding to the smallest eigenvalue of \\[ A \\] satisfying \\[ x_1^2 + x_2^2 + x_3^2 = 1 \\]. Then the value of \\[ |x_1| + |x_2| + |x_3| \\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "1.73",
+    "syllabus_section": "Matrices and Determinants"
+  },
+  {
+    "year": 2022,
+    "question_number": 54,
+    "question_text": "Five men go to a restaurant together and each of them orders a dish that is different from the dishes ordered by the other members of the group. However the waiter serves the dishes randomly. Then the probability that exactly one of them gets the dish he ordered equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.38",
+    "syllabus_section": "Descriptive Statistics and Probability"
+  },
+  {
+    "year": 2022,
+    "question_number": 55,
+    "question_text": "Let \\[ X \\] be a random variable having the probability density function \\[f(x) = \\begin{cases} ax^2 + b, & 0 \\leq x \\leq 3 \\\\ 0, & \\text{otherwise}, \\end{cases}\\] where \\[ a \\] and \\[ b \\] are real constants and \\[ P(X \\geq 2) = \\frac{2}{3} \\]. Then \\[ E(X) \\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "2.17",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 56,
+    "question_text": "A vaccine when it is administered to an individual produces no side effects with probability \\[ \\frac{4}{5} \\] mild side effects with probability \\[ \\frac{2}{15} \\] and severe side effects with probability \\[ \\frac{1}{15} \\]. Assume that the development of side effects is independent across individuals. The vaccine was administered to 1000 randomly selected individuals. If \\[ X_1 \\] denotes the number of individuals who developed mild side effects and \\[ X_2 \\] denotes the number of individuals who developed severe side effects then the coefficient of variation of \\[ X_1 + X_2 \\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.06",
+    "syllabus_section": "Univariate Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 57,
+    "question_text": "Let \\[ \\{X_n\\}_{n \\geq 1} \\] be a sequence of independent and identically distributed random variables having \\[ U(0, 1) \\] distribution. Let \\[ Y_n = n \\min\\{X_1, X_2, ..., X_n\\}, n \\geq 1 \\]. If \\[ Y_n \\] converges to \\[ Y \\] in distribution then the median of \\[ Y \\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.69",
+    "syllabus_section": "Limit Theorems"
+  },
+  {
+    "year": 2022,
+    "question_number": 58,
+    "question_text": "Let \\[ X_{(1)} < X_{(2)} < X_{(3)} < X_{(4)} < X_{(5)} \\] be the order statistics based on a random sample of size 5 from a continuous distribution with the probability density function \\[f(x) = \\begin{cases} \\frac{1}{x^2}, & 1 < x < \\infty \\\\ 0, & \\text{otherwise}. \\end{cases}\\] Then the sum of all possible values of \\[ r \\in \\{1, 2, 3, 4, 5\\} \\] for which \\[ E(X_{(r)}) \\] is finite equals ______",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "10",
+    "syllabus_section": "Sampling Distributions"
+  },
+  {
+    "year": 2022,
+    "question_number": 59,
+    "question_text": "Consider the linear regression model \\[ y_i = \\beta_0 + \\beta_1 x_i + \\epsilon_i, i = 1, 2, ..., 6 \\] where \\[\\beta_0\\] and \\[\\beta_1\\] are unknown parameters and \\[\\epsilon_i\\]'s are independent and identically distributed random variables having \\[N(0, 1)\\] distribution. The data on \\[(x_i, y_i)\\] are given in the following table. \\[\\begin{array}{|c|c|c|c|c|c|} \\hline x_i & 1.0 & 2.0 & 2.5 & 3.0 & 3.5 & 4.5 \\\\ \\hline y_i & 2.0 & 3.0 & 3.5 & 4.2 & 5.0 & 5.4 \\\\ \\hline \\end{array}\\] If \\[\\widehat{\\beta_0}\\] and \\[\\widehat{\\beta_1}\\] are the least squares estimates of \\[\\beta_0\\] and \\[\\beta_1\\] respectively based on the above data then \\[\\widehat{\\beta_0} + \\widehat{\\beta_1}\\] equals ______ (round off to 2 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "2.05",
+    "syllabus_section": "Estimation"
+  },
+  {
+    "year": 2022,
+    "question_number": 60,
+    "question_text": "Let \\[ X_1, X_2, ..., X_9 \\] be a random sample from a \\[ N(\\mu, \\sigma^2) \\] distribution where \\[\\mu \\in \\mathbb{R}\\] and \\[\\sigma > 0\\] are unknown. Let the observed values of \\[\\overline{X} = \\frac{1}{9} \\sum_{i=1}^9 X_i\\] and \\[S^2 = \\frac{1}{8} \\sum_{i=1}^9 (X_i - \\overline{X})^2\\] be 9.8 and 1.44 respectively. If the likelihood ratio test is used to test the hypothesis \\[H_0: \\mu = 8.8\\] against \\[H_1: \\mu > 8.8\\] then the \\[p\\]-value of the test equals ______ (round off to 3 decimal places)",
+    "type": "NAT",
+    "options": null,
+    "correct_answer": "0.019",
+    "syllabus_section": "Testing of Hypotheses"
+  }
+]
