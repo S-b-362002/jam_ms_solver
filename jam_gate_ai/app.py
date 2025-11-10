@@ -15,9 +15,10 @@ import requests
 # =========================
 # Config
 # =========================
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data", "questions_json")
-SYLLABUS_MASTER_PATH = os.path.join(BASE_DIR, "data", "syllabus", "syllabus.json")
+BASE_DIR = "/mount/src/jam_ms_solver"          # ← YOUR REPO NAME
+
+DATA_DIR = os.path.join(BASE_DIR, "jam_gate_ai", "data", "questions_json")
+SYLLABUS_MASTER_PATH = os.path.join(BASE_DIR, "jam_gate_ai", "data", "syllabus", "syllabus.json")
 MODEL_NAME = "deepseek-v3.1:671b-cloud"
 
 # =========================
@@ -416,5 +417,6 @@ with tab1:
                 st.success(f"✅ Correct Answer: {correct}")
             else:
                 st.error(f"❌ Model: {ans} | Correct: {correct}")
+
 
 
