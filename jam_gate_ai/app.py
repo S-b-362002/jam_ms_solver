@@ -15,8 +15,8 @@ import requests
 # =========================
 # Config
 # =========================
-DATA_DIR = r"D:\jam_gate_ai\data\questions_json"
-SYLLABUS_MASTER_PATH = r"D:\jam_gate_ai\data\syllabus\syllabus.json"
+DATA_DIR = r"data/questions_json"
+SYLLABUS_MASTER_PATH = r"data/syllabus/syllabus.json"
 MODEL_NAME = "deepseek-v3.1:671b-cloud"
 
 # =========================
@@ -415,3 +415,4 @@ with tab1:
                 st.success(f"✅ Correct Answer: {correct}")
             else:
                 st.error(f"❌ Model: {ans} | Correct: {correct}")
+
